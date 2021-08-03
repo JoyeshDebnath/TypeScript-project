@@ -131,3 +131,30 @@
 // let result: number;
 // result = minus(100, 55);
 // console.log("Result",result);
+//$NOTE  Functions Signature ..
+//example 1:
+// let greet: (a: string, b: string) => void
+// greet = (name,surname) => {
+//     console.log(`Hello MR/MISS/MRS ${name} ${surname} welcome To the World of TypeScript..`);
+// }
+// greet("Joyesh", "Debnath");
+// //Example 2:
+// let calc: (a:number,b:number,c:string) => number;
+// calc = (n1, n2, action) => {
+//     if (action == 'ADD') {
+//         return n1 + n2;
+//     }
+//     else {
+//         return n1 - n2;
+//     }
+// }
+// console.log(calc(12, 14, 'ADD'));
+// //Example 3:
+// let StudentInfo: (stud_obj: { name: string, roll: number, email: string }) => void;
+// //using type alias 
+// type Person = { name: string, roll: number, email: string };
+// StudentInfo = (Student: Person) => {
+//     console.log("Student Name:", Student.name);
+//     console.log("Student Roll:", Student.roll);
+//     console.log("Student Email:",Student.email); 
+// }
