@@ -1,8 +1,14 @@
-var character = 'Joyesh';
+var character = "SpiderMan";
 console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
-console.log("Hello world!");
+var age = 20;
+var isCoder = false;
+// character = 200;
+character = "BatMan";
+console.log(character);
+age = 21;
+isCoder = true;
+var Area_circle = function (radius) {
+    return radius * radius * Math.PI;
+};
+var area = Area_circle(14.45);
+console.log(area);

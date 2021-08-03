@@ -1,12 +1,20 @@
-
-const character = 'Joyesh';
+let character = "SpiderMan";
 console.log(character);
+let age = 20;
 
-const inputs = document.querySelectorAll('input');
-console.log(inputs);
+let isCoder = false;
 
-inputs.forEach(input => {
-console.log(input);
-});
+// character = 200;
 
-console.log("Hello world!");
+character = "BatMan";
+console.log(character);
+age = 21;
+isCoder = true;
+
+const Area_circle = (radius:number) => {
+    return radius * radius * Math.PI;
+}
+
+const area = Area_circle(14.45);
+console.log(area);
+
