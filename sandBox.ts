@@ -78,5 +78,49 @@ players.push(21);
 players.push(100);
 players.push("Messi");
 players.push(true);
- console.log(players);
+console.log(players);
+ 
+let uid: string | number;
+uid = "jgwdjqwdghqdh823346";
+uid = 919749347;
+
 //Objects................................................................
+
+//$NOTE  an array is also an object in javascript 
+
+let student1: object;
+
+student1 = {
+    name: "Joyesh Debnath",
+    roll:1930125,
+    age: 21,
+    branch:"ECSE"
+}
+
+console.log(student1);
+
+//Below is a more specific format of how to declare objects in an more appropriate way and precise way
+//Note ann array is also an object so  student1=["Joyesh "] will also not return any error
+
+
+// below is strictly an object   student2={}
+
+let student2 : {
+    name: string,
+    email: string,
+    roll: number,
+    degree: string,
+    isStudent: boolean,
+    skills:string[]
+}
+
+student2 = {
+    name: "Joyesh Debnath",
+    email: "1930125@kiit.ac.in",
+    roll: 1930125,
+    degree: "B-Tech",
+    isStudent: true,
+    skills:["JavaScript","TypeScript","ReactJS"]
+}
+
+console.log(student2);
